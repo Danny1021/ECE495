@@ -1,15 +1,11 @@
 # 0) Setup
-import ssl
-import certifi
-
-ssl._create_default_https_context = lambda: ssl.create_default_context(cafile=certifi.where())
-
 import torch, torch.nn as nn, torch.nn.functional as F
 from torch.utils.data import DataLoader, Subset
 from torchvision import datasets, transforms
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 import numpy as np
 import random
+import matplotlib.pyplot as plt
 
 # Reproducibility
 seed = 42
@@ -68,7 +64,6 @@ model = LinearClassifier().to(device)
 # BCEWithLogitsLoss expects float targets in {0,1}
 criterion = nn.BCEWithLogitsLoss()
 optimizer = torch.optim.SGD(model.parameters(), lr=0.1, momentum=0.9, weight_decay=1e-4)
-# (You can also try Adam(lr=1e-3) if you prefer)
 
 # 4) Training loop
 def train_epoch():
@@ -120,6 +115,17 @@ def report(loader):
         ys.append(y.numpy()); preds.append(yhat)
     ys = np.concatenate(ys); preds = np.concatenate(preds)
     print(classification_report(ys, preds, target_names=["3","8"]))
+
+    w = model.fc.weight.detach().cpu().numpy()
+    b = model.fc.bias.detach().cpu().numpy()
+    print("Weight shape:", w.shape)
+    print("Bias:", b)
+
+    w_img = w.reshape(28,28)
+    plt.imshow(w_img, cmap="seismic")
+    plt.colorbar()
+    plt.title("Linear classifier weights")
+    plt.show()
 
 report(test_loader)
 
