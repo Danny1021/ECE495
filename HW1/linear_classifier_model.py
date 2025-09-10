@@ -1,4 +1,9 @@
 # 0) Setup
+import ssl
+import certifi
+
+ssl._create_default_https_context = lambda: ssl.create_default_context(cafile=certifi.where())
+
 import torch, torch.nn as nn, torch.nn.functional as F
 from torch.utils.data import DataLoader, Subset
 from torchvision import datasets, transforms
