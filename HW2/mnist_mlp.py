@@ -103,20 +103,33 @@ def make_datasets(
         test_ds  = load_mnist_raw(train=False, transform=transforms.Compose([transforms.ToTensor(), norm]))
         return train_ds, val_ds, test_ds, None
 
-    if transform_mode == "global-mean":
-        # Compute μ image from requested scope
-        if mean_scope == "all":
-            # WARNING: uses test images for μ (data leakage), but aligns with assignment wording "total set"
-            total_for_mean = torch.utils.data.ConcatDataset([load_mnist_raw(True, raw_transform),
-                                                             load_mnist_raw(False, raw_transform)])
-        else:
-            total_for_mean = load_mnist_raw(True, raw_transform)
-        mu = compute_mean_image(total_for_mean)  # (1,28,28)
+    # if transform_mode == "global-mean":
+    #     # Compute μ image from requested scope
+    #     if mean_scope == "all":
+    #         # WARNING: uses test images for μ (data leakage), but aligns with assignment wording "total set"
+    #         total_for_mean = torch.utils.data.ConcatDataset([load_mnist_raw(True, raw_transform),
+    #                                                          load_mnist_raw(False, raw_transform)])
+    #     else:
+    #         total_for_mean = load_mnist_raw(True, raw_transform)
+    #     mu = compute_mean_image(total_for_mean)  # (1,28,28)
 
-        return (GlobalMeanShifted(train_raw, mu),
-                GlobalMeanShifted(val_raw,   mu),
-                GlobalMeanShifted(test_raw,  mu),
-                mu)
+    #     return (GlobalMeanShifted(train_raw, mu),
+    #             GlobalMeanShifted(val_raw,   mu),
+    #             GlobalMeanShifted(test_raw,  mu),
+    #             mu)
+    
+    if transform_mode == "global-mean":
+        # Leakage-free: compute μ from the TRAIN SUBSET ONLY (train_raw)
+        # train_raw is a Subset of the official training set with ToTensor() only
+        mu = compute_mean_image(train_raw)  # (1, 28, 28)
+
+        return (
+            GlobalMeanShifted(train_raw, mu),
+            GlobalMeanShifted(val_raw,   mu),
+            GlobalMeanShifted(test_raw,  mu),
+            mu
+        )
+
 
     raise ValueError(f"Unknown transform_mode: {transform_mode}")
 

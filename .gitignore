@@ -1,0 +1,11 @@
+HW4/data/cifar-10-python.tar.gz
+HW4/data/
+HW4/data/
+*.tar.gz
+*.pt
+outputs/
+*.png
+*.csv
+*.zip
+__pycache__/
+.DS_Store
