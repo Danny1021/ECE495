@@ -1,0 +1,327 @@
+=== PROMPT ===
+Once upon a time there was a little robot who wanted to learn
+
+--- num_beams=1 (top 1 sequences) ---
+[1] score=-0.695313036441803
+Once upon a time there was a little robot who wanted to learn how to fly. He asked his mom for help. His mom said, "Yes, you can help me. But first, let's go to the store and buy some food."
+
+The little boy was so excited. She said to her mom, â€œMom, can
+
+
+--- num_beams=3 (top 3 sequences) ---
+[1] score=-0.7646195292472839
+Once upon a time there was a little robot who wanted to learn something new. He asked his mom if he could go outside and play. His mom said yes, so he went to the store to buy some food. 
+
+When they got there, the robot saw a big machine. The robot was very big and had lots of buttons and lights. It
+
+[2] score=-0.7658409476280212
+Once upon a time there was a little robot who wanted to learn something new. He asked his mom if he could go outside and play. His mom said yes, so he went to the store to buy some food. 
+
+When they got there, the robot saw a big machine. The robot was very big and had lots of buttons. It looked like
+
+[3] score=-0.7748042345046997
+Once upon a time there was a little robot who wanted to learn something new. He asked his mom if he could go outside and play. His mom said yes, so he went to the store to buy some food. 
+
+When they got there, the robot saw a big machine. The robot was very big and had lots of buttons and lights. Tim
+
+
+--- num_beams=5 (top 5 sequences) ---
+[1] score=-0.5575290322303772
+Once upon a time there was a little robot who wanted to learn new things. One day, he went to the park to play with his friends. They played on the swings, the slide and the sandbox.
+
+As they were playing, they saw a big dog. The dog was barking and running towards them. Lily and Max were scared and ran away.
+
+[2] score=-0.5666096210479736
+Once upon a time there was a little robot who wanted to learn new things. One day, he went to the park to play with his friends. They played on the swings, the slide and the sandbox.
+
+As they were playing, they saw a big dog. The dog was barking and running towards them. Lily was scared and ran away. But the
+
+[3] score=-0.5745894312858582
+Once upon a time there was a little robot who wanted to learn new things. One day, he went to the park to play with his friends. They played on the swings, the slide and the sandbox.
+
+As they were playing, they saw a big dog. The dog was barking and running towards them. Lily was scared and ran away. She didn
+
+[4] score=-0.5752569437026978
+Once upon a time there was a little robot who wanted to learn new things. One day, he went to the park to play with his friends. They played on the swings, the slide and the sandbox.
+
+As they were playing, they saw a big dog. The dog was barking and running towards them. Lily was scared and ran away. Her friends
+
+[5] score=-0.5763600468635559
+Once upon a time there was a little robot who wanted to learn new things. One day, he went to the park to play with his friends. They played on the swings, the slide and the sandbox.
+
+As they were playing, they saw a big dog. The dog was barking and running towards them. Lily was scared and ran away from the dog
+
+
+--- num_beams=10 (top 10 sequences) ---
+[1] score=-0.5190109610557556
+Once upon a time there was a little robot who wanted to learn new things. One day, he went to the park to play with his friends. They played on the swings and the slide.
+
+As they were playing, they saw a big dog. The dog was barking and running towards them. Tim was scared and didn't know what to do. He
+
+[2] score=-0.5197968482971191
+Once upon a time there was a little robot who wanted to learn new things. One day, he went to the park to play with his friends. They played on the swings and the slide.
+
+As they were playing, they saw a big dog. The dog was barking and running towards them. Lily was scared and didn't know what to do. She
+
+[3] score=-0.5397177338600159
+Once upon a time there was a little robot who wanted to learn new things. One day, he went to the park to play with his friends. They played on the swings and the slide.
+
+As they were playing, they saw a big dog. The dog was barking and running towards them. Lily was scared and didn't know what to do. But
+
+[4] score=-0.5410886406898499
+Once upon a time there was a little robot who wanted to learn new things. One day, he went to the park to play with his friends. They played on the swings and the slide.
+
+As they were playing, they saw a big dog. The dog was barking and running towards them. Tim was scared and didn't know what to do. But
+
+[5] score=-0.5466510057449341
+Once upon a time there was a little robot who wanted to learn new things. One day, he went to the park to play with his friends. They played on the swings, the slide, and the sandbox.
+
+As they were playing, they saw a big dog. The dog was barking and running towards them. Lily was scared and didn't know what
+
+[6] score=-0.5472078919410706
+Once upon a time there was a little robot who wanted to learn new things. One day, he went to the park to play with his friends. They played on the swings and the slide.
+
+As they were playing, they saw a big dog. The dog was barking and running towards them. Lily was scared and didn't know what to do. Suddenly
+
+[7] score=-0.55034339427948
+Once upon a time there was a little robot who wanted to learn new things. One day, he went to the park to play with his friends. They played on the swings and the slide.
+
+As they were playing, they saw a big dog. The dog was barking and running towards them. Tim was scared and didn't know what to do. Suddenly
+
+[8] score=-0.5568407773971558
+Once upon a time there was a little robot who wanted to learn new things. One day, he went to the park to play with his friends. They played on the swings, the slide, and the sandbox.
+
+As they were playing, they saw a big dog. The dog was barking and running towards them. Lily was scared and ran away. She
+
+[9] score=-0.5605729222297668
+Once upon a time there was a little robot who wanted to learn new things. One day, he went to the park to play with his friends. They played on the swings, the slide, and the sandbox.
+
+As they were playing, they saw a big dog. The dog was barking and running towards them. Lily and Max were scared and ran away
+
+[10] score=-0.5605847835540771
+Once upon a time there was a little robot who wanted to learn new things. One day, he went to the park to play with his friends. They played on the swings and the slide.
+
+As they were playing, they saw a big dog. The dog was barking and running towards them. Lily was scared and didn't know what to do. Her
+
+
+============================================================
+
+=== PROMPT ===
+The sun was shining brightly over the green hills when
+
+--- num_beams=1 (top 1 sequences) ---
+[1] score=-0.9104121327400208
+The sun was shining brightly over the green hills when it was time to go home. The sun shone brightly and the birds were singing.
+
+The little girl was so happy that she had found the perfect place to stay. She ran and ran until she found a big tree. It was a beautiful tree with lots of leaves. 
+She was
+
+
+--- num_beams=3 (top 3 sequences) ---
+[1] score=-0.8819791674613953
+The sun was shining brightly over the green hills when the sun shone brightly in the sky.
+
+Suddenly, a loud noise filled the air. It was coming from a big, scary monster! The monster was scared and ran away as fast as it could. But the monster kept coming closer and closer until it was too late. 
+The monster
+
+[2] score=-0.8851006627082825
+The sun was shining brightly over the green hills when the sun shone brightly in the sky.
+
+Suddenly, a loud noise filled the air. It was coming from a big, scary monster! The monster was scared and ran away as fast as it could. But the monster kept coming closer and closer, until it was too late. 
+The
+
+[3] score=-0.9108428955078125
+The sun was shining brightly over the green hills when the sun shone brightly in the sky.
+
+Suddenly, a loud noise filled the air. It was coming from a big, scary monster! The monster was scared and ran away as fast as it could. But the monster kept coming closer and closer, until it was too late. The sun started
+
+
+--- num_beams=5 (top 5 sequences) ---
+[1] score=-0.777925431728363
+The sun was shining brightly over the green hills when he heard a loud noise. He looked around and saw a big, scary monster!
+
+The monster was so scared that he ran away as fast as he could. But the monster kept coming closer and closer, until he reached out his hand to touch it. The monster started to run away,
+
+[2] score=-0.7954452037811279
+The sun was shining brightly over the green hills when he heard a loud noise. He looked around and saw a big, scary monster!
+
+The monster was so scared that he ran away as fast as he could. But the monster kept coming closer and closer, until he reached out his hand to touch it. It was very big and scary.
+
+[3] score=-0.8007574677467346
+The sun was shining brightly over the green hills when he heard a loud noise. He looked around and saw a big, scary monster!
+
+The monster was so scared that he ran away as fast as he could. But the monster kept coming closer and closer, until he reached out his hand to touch it. It was very big and scary,
+
+[4] score=-0.8025141954421997
+The sun was shining brightly over the green hills when he heard a loud noise. He looked around and saw a big, scary monster!
+
+The monster was so scared that he ran away as fast as he could. But the monster kept coming closer and closer, until he reached out his hand to touch it. The monster started to run away and
+
+[5] score=-0.8075679540634155
+The sun was shining brightly over the green hills when he heard a loud noise. He looked around and saw a big, scary monster!
+
+The monster was so scared that he ran away as fast as he could. But the monster kept coming closer and closer, until he reached out his hand to touch it. The monster started to run away.
+
+
+--- num_beams=10 (top 10 sequences) ---
+[1] score=-0.7167815566062927
+The sun was shining brightly over the green hills when he heard a loud noise. He looked around and saw a big, scary monster!
+
+The monster was so scared that he ran away as fast as he could. But then he remembered something his mom had told him. She said, "If you don't go too close to the monster,
+
+[2] score=-0.7189788818359375
+The sun was shining brightly over the green hills when he heard a loud noise. He looked around and saw a big, scary monster!
+
+The monster was so scared that he ran away as fast as he could. But then he remembered something his mom had told him. She said, "If you don't get too close to the monster,
+
+[3] score=-0.7417365908622742
+The sun was shining brightly over the green hills when he heard a loud noise. He looked around and saw a big, scary monster!
+
+The monster was so scared that he ran away as fast as he could. But then he remembered something his mom had told him. She said, "If you don't get too close, you won't
+
+[4] score=-0.7569840550422668
+The sun was shining brightly over the green hills when he heard a loud noise. He looked around and saw a big, scary monster!
+
+The monster was so scared that he ran away as fast as he could. But then he remembered something his mom had told him. She said, "If you don't get too close, you can't
+
+[5] score=-0.7632453441619873
+The sun was shining brightly over the green hills when he heard a loud noise. He looked around and saw a big, scary monster!
+
+The monster was so scared that he ran away as fast as he could. But then he remembered something his mom had told him. She said, "If you don't go too close to the monster and
+
+[6] score=-0.7649476528167725
+The sun was shining brightly over the green hills when he heard a loud noise. He looked around and saw a big, scary monster!
+
+The monster was so scared that he ran away as fast as he could. But then he remembered something his mom had told him. She said, "If you don't get too close, you will get
+
+[7] score=-0.7657814025878906
+The sun was shining brightly over the green hills when he heard a loud noise. He looked around and saw a big, scary monster!
+
+The monster was so scared that he ran away as fast as he could. But then he remembered something his mom had told him. She said, "If you don't get too close, you can get
+
+[8] score=-0.7690005898475647
+The sun was shining brightly over the green hills when he heard a loud noise. He looked around and saw a big, scary monster!
+
+The monster was so scared that he ran away as fast as he could. But then he remembered something his mom had told him. She said, "If you don't get too close, you must be
+
+[9] score=-0.7695285081863403
+The sun was shining brightly over the green hills when he heard a loud noise. He looked around and saw a big, scary monster!
+
+The monster was so scared that he ran away as fast as he could. But then he remembered something his mom had told him. She said, "If you don't get too close, I'll get
+
+[10] score=-0.7717129588127136
+The sun was shining brightly over the green hills when he heard a loud noise. He looked around and saw a big, scary monster!
+
+The monster was so scared that he ran away as fast as he could. But then he remembered something his mom had told him. She said, "If you don't get too close to the monster and
+
+
+============================================================
+
+=== PROMPT ===
+In a tiny village by the sea, a young girl discovered
+
+--- num_beams=1 (top 1 sequences) ---
+[1] score=-0.8573936223983765
+In a tiny village by the sea, a young girl discovered the reef. She was so excited to explore it.
+
+The girl was excited and asked her mom, "Can I go on the boat?" Her mom said, â€œYes, but be careful. Itâ€™s very fragile.â the little girl nodded and said
+
+
+--- num_beams=3 (top 3 sequences) ---
+[1] score=-0.9503633379936218
+In a tiny village by the sea, a young girl discovered something new. She was so excited to see what it was.
+
+The little girl asked her mom, "What is this?" Her mom replied, â€œIt's a special shell that you can use to make something special with it.â€ The girl smiled and said,
+
+[2] score=-0.9508450031280518
+In a tiny village by the sea, a young girl discovered something new. She was so excited to see what it was.
+
+The little girl asked her mom, "What is this?" Her mom replied, â€œIt's a special shell that you can use to make something special with it.â€ The girl was very excited and
+
+[3] score=-0.9609816074371338
+In a tiny village by the sea, a young girl discovered something new. She was so excited to see what it was.
+
+The little girl asked her mom, "What is this?" Her mom replied, â€œIt's a special shell that you can use to make something special with it.â€ The girl was excited and asked
+
+
+--- num_beams=5 (top 5 sequences) ---
+[1] score=-0.7632027268409729
+In a tiny village by the sea, a young girl discovered something new. She was so excited and couldn't wait to see what it was.
+
+When she got to the beach, she saw something amazing. It was a big, shiny shell! She wanted to take it home and show it to her mom. Her mom smiled and said, "That
+
+[2] score=-0.7917983531951904
+In a tiny village by the sea, a young girl discovered something new. She was so excited and couldn't wait to see what it was.
+
+When she got to the beach, she saw something amazing. It was a big, shiny shell! She wanted to take it home and show it to her mom. Her mom said, "That shell is
+
+[3] score=-0.7960455417633057
+In a tiny village by the sea, a young girl discovered something new. She was so excited and couldn't wait to see what it was.
+
+When she got to the beach, she saw something amazing. It was a big, shiny shell! She wanted to take it home and show it to her mom. Her mom smiled and said, "Yes
+
+[4] score=-0.7960891723632812
+In a tiny village by the sea, a young girl discovered something new. She was so excited and couldn't wait to see what it was.
+
+When she got to the beach, she saw something amazing. It was a big, shiny shell! She wanted to take it home and show it to her mom. Her mom was very proud of her for
+
+[5] score=-0.7967134118080139
+In a tiny village by the sea, a young girl discovered something new. She was so excited and couldn't wait to see what it was.
+
+When she got to the beach, she saw something amazing. It was a big, shiny shell! She wanted to take it home and show it to her mom. Her mom said, "That's a
+
+
+--- num_beams=10 (top 10 sequences) ---
+[1] score=-0.8029816150665283
+In a tiny village by the sea, a young girl discovered something new. She was so excited that she decided to take a closer look.
+
+When she got closer, she saw that it was a big, scary monster! The girl was scared and ran away as fast as she could. But the monster was too fast and the girl started to cry.
+
+[2] score=-0.8122593760490417
+In a tiny village by the sea, a young girl discovered something new. She was so excited that she decided to take a closer look.
+
+When she got closer, she saw that it was a big, scary monster! The girl was scared and ran away as fast as she could. But the monster was too fast and the girl started to run away
+
+[3] score=-0.8150846362113953
+In a tiny village by the sea, a young girl discovered something new. She was so excited that she decided to take a closer look.
+
+When she got closer, she saw that it was a big, scary monster! The girl was scared and ran away as fast as she could. But the monster was too fast and the girl couldn't catch it
+
+[4] score=-0.8178828954696655
+In a tiny village by the sea, a young girl discovered something new. She was so excited that she decided to take a closer look.
+
+When she got closer, she saw that it was a big, scary monster! The girl was scared and ran away as fast as she could. But the monster was too fast and the girl got very scared.
+
+[5] score=-0.8241702914237976
+In a tiny village by the sea, a young girl discovered something new. She was so excited that she decided to take a closer look.
+
+When she got closer, she saw that it was a big, scary monster! The girl was scared and ran away as fast as she could. But the monster was too fast, and the girl couldn't catch
+
+[6] score=-0.8277136087417603
+In a tiny village by the sea, a young girl discovered something new. She was so excited that she decided to take a closer look.
+
+When she got closer, she saw that it was a big, scary monster! The girl was scared and ran away as fast as she could. But the monster was too fast, and the girl got scared.
+
+[7] score=-0.8326246738433838
+In a tiny village by the sea, a young girl discovered something new. She was so excited that she decided to take a closer look.
+
+When she got closer, she saw that it was a big, scary monster! The girl was scared and ran away as fast as she could. But the monster was too fast and the girl couldn't catch him
+
+[8] score=-0.8344663381576538
+In a tiny village by the sea, a young girl discovered something new. She was so excited that she decided to take a closer look.
+
+When she got closer, she saw that it was a big, scary monster! The girl was scared and ran away as fast as she could. But the monster was too fast and the girl couldn't get away
+
+[9] score=-0.8352418541908264
+In a tiny village by the sea, a young girl discovered something new. She was so excited that she decided to take a closer look.
+
+When she got closer, she saw that it was a big, scary monster! The girl was scared and ran away as fast as she could. But the monster was too fast, and the girl couldn't get
+
+[10] score=-0.8356837630271912
+In a tiny village by the sea, a young girl discovered something new. She was so excited that she decided to take a closer look.
+
+When she got closer, she saw that it was a big, scary monster! The girl was scared and ran away as fast as she could. But the monster was too fast and the girl couldn't catch her
+
+
+============================================================
+
